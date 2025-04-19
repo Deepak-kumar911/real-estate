@@ -1,0 +1,1 @@
+export const apiUrl = "https://www.magicbricks.com"
