@@ -33,6 +33,31 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+# Real Estate Project Map Viewer 🌍
+
+This is a Next.js project that displays project or location details on an interactive map using Leaflet. It supports dynamic routing and client-side rendering of map components to ensure compatibility with SSR (Server Side Rendering).
+
+## 🚀 Features
+
+- Built with **Next.js** and **Tailwind CSS**
+- Interactive map using **Leaflet.js**
+- Getting geo-location from **POSITION STACK**
+- Dynamically loaded map to prevent SSR issues
+- API integration with `.env` for secure key management
+- Clean, responsive UI components
+
+## 📦 Installation
+
+1. Clone the repo:
+
+git clone https://github.com/Deepak-kumar911/real-estate.git
+
+
+## ENV Variables
+Create .evn.local in root directory of the project
+ADD following variable
+POSITION_STACK_API_KEY
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
